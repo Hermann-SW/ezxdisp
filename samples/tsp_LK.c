@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 #include <assert.h>
+#include <unistd.h>
 
 #include "ezxdisp.h"
 #include "tsplib.h"
@@ -117,6 +118,7 @@ void showtour2(int *tour, int eval)
   //printf("\n");
 
   ezx_redraw(e);
+  usleep(10000);
 
   //for(i=0;i<dim;i++) fprintf(stderr,"%2d ",tour[(i*dir+j) % dim]);
   //fprintf(stderr,"\n");
