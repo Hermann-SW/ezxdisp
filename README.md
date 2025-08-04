@@ -39,6 +39,11 @@ for g++. Open any file from "~/ezxdisp/samples/\*.c" in IDE, press F9 to build w
 Just while we are here, below is copied in screenshot page from the website, with two animations added:  
 [http://morihit.net/ezxdisp/screenshots.html](http://morihit.net/ezxdisp/screenshots.html)  
 
+In 2025 I started implementation of optimization with Ruin and Recreate for TSP (Traveling Salesman Problem), and used ezxdisp for graphics. Similar to 2nd demo from original author of ezxdisp below, here mona-lisa100K.tsp with 100,000 cities is shown:  
+https://github.com/Hermann-SW/RR?tab=readme-ov-file#mona-lisa-tsp-challange  
+![res/mona-lisa100K.part.png](res/mona-lisa100K.part.png)
+
+
 ### Conway's Game of Life
 
 <kbd>![origin/life.png](origin/life.png)</kbd>
